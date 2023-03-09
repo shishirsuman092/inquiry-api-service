@@ -66,7 +66,9 @@
           "Student",
           "Teacher",
           "Administrator",
-          "Parent"
+          "Parent",
+          "Others",
+          "Other"
         ],
         "default": "Student"
       }
@@ -113,6 +115,9 @@
       "type": "array"
     },
     "publishComment": {
+      "type": "string"
+    },
+    "rejectComment": {
       "type": "string"
     },
     "compatibilityLevel": {
@@ -187,6 +192,9 @@
     "versionKey": {
       "type": "string"
     },
+    "languageCode": {
+      "type": "array"
+    },
     "language": {
       "type": "array",
       "items": {
@@ -240,6 +248,12 @@
     "difficultyLevel" : {
       "type": "array"
     },
+    "learningOutcome": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "boardIds": {
       "type": "array",
       "items": {
@@ -271,6 +285,12 @@
       }
     },
     "difficultyLevelIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "learningOutcomeIds": {
       "type": "array",
       "items": {
         "type": "string"
@@ -613,6 +633,27 @@
     "rejectComment": {
       "type": "string"
     },
+    "organisationId" : {
+      "type": "string"
+    },
+    "programId": {
+      "type": "string"
+    },
+    "sampleContent": {
+      "type": "boolean"
+    },
+    "creator": {
+      "type": "string"
+    },
+    "collectionId" : {
+      "type": "string"
+    },
+    "unitIdentifiers": {
+      "type": "array"
+    },
+    "contentPolicyCheck" : {
+      "type": "boolean"
+    },
     "allowBranching": {
       "type": "string",
       "enum": [
@@ -670,7 +711,7 @@
     "accessibility": {
       "type": "array",
       "items": {
-          "type": "object"
+        "type": "object"
       }
     },
     "outcomeDeclaration": {
