@@ -237,6 +237,9 @@
     "topic" : {
       "type": "array"
     },
+    "difficultyLevel" : {
+      "type": "array"
+    },
     "boardIds": {
       "type": "array",
       "items": {
@@ -262,6 +265,12 @@
       }
     },
     "topicsIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "difficultyLevelIds": {
       "type": "array",
       "items": {
         "type": "string"
@@ -298,6 +307,12 @@
       }
     },
     "targetTopicIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "targetDifficultyLevelIds": {
       "type": "array",
       "items": {
         "type": "string"
@@ -364,6 +379,17 @@
       }
     },
     "se_gradeLevels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "se_difficultyLevelIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },"se_difficultyLevels": {
       "type": "array",
       "items": {
         "type": "string"
