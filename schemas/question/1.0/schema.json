@@ -317,6 +317,12 @@
         "type": "string"
       }
     },
+    "se_difficultyLevelIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "se_boards": {
       "type": "array",
       "items": {
@@ -342,6 +348,12 @@
       }
     },
     "se_gradeLevels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "se_difficultyLevels": {
       "type": "array",
       "items": {
         "type": "string"
